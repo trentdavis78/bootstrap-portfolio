@@ -66,8 +66,7 @@ button.navbar-toggler {
 .skill {
   width: 300px;
   height: 200px;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin:0 auto 25px;
 }
 .skill-desc {
   text-align: center;
@@ -88,6 +87,7 @@ button.navbar-toggler {
 #skill-1 {
   background-image: url('../images/image1.jpg');
   background-repeat: no-repeat;
+
 }
 #skill-2 {
   background-image: url('../images/image2.jpg');
@@ -120,14 +120,15 @@ i.fab {
   font-size: 2rem;
 }
 .social a:hover {
-  color: #4aaaa5 !important;
+  color: #4aaaa5;
 }
 .copyright {
   margin-top: 1rem;
 }
+/* minimized use of media queries (there were just a couple of aesthetic things I couldn't live without) */
 @media screen and (min-width: 1200px) {
   .social {
-    justify-content: flex-end !important;
+    justify-content: flex-end ;
   }
 }
 @media screen and (max-width: 1200px) {
