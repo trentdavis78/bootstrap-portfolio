@@ -40,19 +40,17 @@ h2 {
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px;
-
 }
 .nav-link.m-2.menu-item {
   text-transform: uppercase;
 }
 button.navbar-toggler.collapsed,
 button.navbar-toggler {
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 .body-bg {
   background-image: url('../images/light-grey-terrazzo.png');
   background-repeat: repeat;
-
 }
 .body-container {
   background-color: #fff;
@@ -87,7 +85,6 @@ button.navbar-toggler {
 #skill-1 {
   background-image: url('../images/image1.jpg');
   background-repeat: no-repeat;
-
 }
 #skill-2 {
   background-image: url('../images/image2.jpg');
@@ -135,5 +132,4 @@ i.fab {
   .custom-bb {
     border-bottom: none;
   }
-
 }
